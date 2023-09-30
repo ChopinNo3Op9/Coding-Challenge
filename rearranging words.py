@@ -1,3 +1,7 @@
+'''
+Given a word, permutate all of anagram alphabatically, and return the next word of it.
+'''
+
 from itertools import permutations
 
 def rearrange (word):

@@ -1,3 +1,7 @@
+'''
+Given a list of numers, delete m of them, and return the minimum number of distinct numbers.
+'''
+
 def min_diff_elements_after_deletion(arr, m):
     freq_dict = {}
 
@@ -26,7 +30,6 @@ def min_diff_elements_after_deletion(arr, m):
     # print(sorted_dict)
 
     return len([element for _, value in sorted_dict.items() if value > 0])
-
 
 # Example usage:
 # arr = [1, 2, 2, 3, 3, 3]

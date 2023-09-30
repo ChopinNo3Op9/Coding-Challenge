@@ -1,3 +1,7 @@
+'''
+Find the strictly increasing continuous numbers in a list.
+'''
+
 def consecutive_increasing_indices(arr):
     consecutive_indices = []
     current_run = [arr[0]]

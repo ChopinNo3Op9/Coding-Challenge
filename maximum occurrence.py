@@ -1,3 +1,7 @@
+'''
+Give a string, return the first character which has the maximum occurrence.
+'''
+
 def max_occurrence_first(string):
 
     letter_count = {}
