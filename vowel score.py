@@ -24,3 +24,4 @@ def vowel_score(s):
 # test
 input = ['hacker', 'book', 'app']
 print(vowel_score(input))
+
