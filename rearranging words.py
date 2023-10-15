@@ -14,6 +14,6 @@ def rearrange (word):
         return(unique_permutations[unique_permutations.index(word) + 1])
 
 # test
-word = "cbaa"
-# word = "baca"
+# word = "cbaa"
+word = "baca"
 print(rearrange(word))
