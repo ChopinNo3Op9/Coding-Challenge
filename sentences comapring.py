@@ -24,8 +24,8 @@ def missing_part(s, t):
 
 
 # test
-# s = "I am missing in the sky"
-# t = "am in the"
-s = "I am missing you in the sky"
+s = "I am missing in the sky"
 t = "am in the"
+# s = "I am missing you in the sky"
+# t = "am in the"
 print(missing_part(s, t))
