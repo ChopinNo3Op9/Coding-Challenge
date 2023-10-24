@@ -15,7 +15,7 @@ def longestPalindrome(s):
 
 
 # test
-string = "babad"
-# string = "cbbd"
+# string = "babad"
+string = "cbbd"
 print(longestPalindrome(string))
 
