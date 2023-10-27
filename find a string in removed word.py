@@ -12,6 +12,6 @@ def letter_remove(w, s):
 
 # test
 word = 'example'
-check = 'ex'
+# check = 'ex'
 print(letter_remove(word, check))
 
