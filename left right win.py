@@ -17,7 +17,7 @@ def quiz_game_outcome(quiz_info):
 
 # Example usage:
 # quiz_info = [10, 2, 3, 5]
-# quiz_info = [5, 3, 3, 3]
-quiz_info = [6, 6, 3, 4]
+quiz_info = [5, 3, 3, 3]
+# quiz_info = [6, 6, 3, 4]
 result = quiz_game_outcome(quiz_info)
 print(result)
