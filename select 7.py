@@ -20,7 +20,7 @@ def select_7(r):
     return count
 
 # test
-# ran = 20
-ran = 10
+ran = 20
+# ran = 10
 print(select_7(ran))
 
