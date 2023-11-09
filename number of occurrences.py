@@ -1,22 +1,22 @@
 '''
-Outputs the number of occurrences of that character in the input string.
+Write a function that counts the number of different characters in a string. 
+The character is in the ASCII code range (0 to 127, including 0 and 127), and the newline represents the end character, which is not included in the character. 
+Those not within the scope will not be counted. Multiple identical characters are counted only once
+For example, for the string abaca, there are three different characters a, b, and c, so the output is 3.
 '''
 
-def occurrences(s):
-    find = s[0][0].lower()
-    target = s[1][0].lower()
-    d = {}
-    d[target] = 0
-    for s in find:
-        if s in d:
-            d[s] += 1
-        else:
-            d[s] = 1
+def count_different_characters(input_string):
+    unique_characters = set()
 
-    return d[target]
+    for char in input_string:
+        # Check if the character is within the ASCII range (0 to 127)
+        if 0 <= ord(char) <= 127 and char != '\n':
+            unique_characters.add(char)
 
-# test
-# string = [['ABCabc'], ['A']]
-string = [['8 8 8  8A i i OOI              IIIaa'], ['A']]
-print(occurrences(string))
+    return len(unique_characters)
+
+# Example usage
+input_str = "abc"
+result = count_different_characters(input_str)
+print(result)
 
