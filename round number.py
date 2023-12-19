@@ -13,6 +13,6 @@ def custom_round(value):
         return integer_part
 
 # Example usage
-# result = custom_round(2.3)
-result = custom_round(2.5)
+result = custom_round(2.3)
+# result = custom_round(2.5)
 print(result)
