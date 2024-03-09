@@ -41,6 +41,7 @@ def maximumUniqueSubarray(nums):
     # print("Unique set:", unique_set)
     return max_score
 
+
 nums = [1, 3, 4, 4, 2, 4, 5, 6, 7, 6]
 result = maximumUniqueSubarray(nums)
 print("Maximum unique subarray score:", result)
